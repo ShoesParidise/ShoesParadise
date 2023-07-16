@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+  background-color: #EAEAEA;
+  font-family: 'PT Serif', serif;
+}
+
+.img-categori {
+  width: 50px;
+}
+
+.row-container {
+  background-color: white;
+  margin: 0px;
+}
+
+.judul-kategori {
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.menu-kategori {
+  justify-content: center;
+}
+
+.img-categori:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.product {
+  background-color: white;
+  padding: 5px 10px; 
+}
+
+.visimisi {
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.visi {
+  font-family: sans-serif;
+}
+
+body{margin-top:20px;}
+
+.footer {
+    background:#232a34;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.footer_menu {
+  margin-bottom: 20px;
+}
+
+.footer_menu ul {
+  list-style: none;
+  text-align: center;
+}
+
+.footer_menu ul li{display: inline-block;}
+
+.footer_menu ul li a {
+  color:#fff;
+  padding: 0 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer_menu ul li a:hover{color:#554c86;}
+
+/*START FOOTER SOCIAL DESIGN*/
+.footer_profile{margin-bottom:40px;}
+.footer_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+
+.footer_profile ul li{
+display: inline-block;
+}
+@media only screen and (max-width:480px) { 
+.footer_profile ul li{margin:2px;}
+}
+.footer_profile ul li a img{width:60px;}
+
+.footer_profile ul li a {
+  background: #554c86;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 50%;
+  line-height: 40px;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #fff;
+}
+.footer_copyright {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.border-5, .border-w-5 {
+    border-width: 5px !important;
+}
+.border-white {
+    border: 1px solid transparent;
+    border-color: #fff !important;
+}
+hr.hr-primary {
+    border-top-color: #CC164D!important;
+}
+em {
+    font-style: italic;
+}
+.font-weight-normal {
+    font-weight: 400 !important;
+}
